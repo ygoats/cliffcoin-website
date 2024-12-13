@@ -1,5 +1,7 @@
 import React from 'react';
 import { Wallet, Users, ChevronDown, Twitter, Send } from 'lucide-react';
+import TokenomicsChart from './components/TokenomicsChart';
+import MemeTemplates from './components/MemeTemplates';
 
 const SinglePageCliffcoin = () => {
   return (
@@ -50,6 +52,20 @@ const SinglePageCliffcoin = () => {
             <p className="text-gray-400">24h Volume</p>
           </div>
         </div>
+      </section>
+
+      {/* Tokenomics Section */}
+      <section className="py-12 px-4 text-center">
+        <h2 className="text-3xl font-bold text-white mb-8">Tokenomics</h2>
+        <div className="max-w-4xl mx-auto bg-black/30 backdrop-blur-sm rounded-xl p-6">
+          <TokenomicsChart />
+        </div>
+      </section>
+
+      {/* Meme Templates Section */}
+      <section className="py-12 px-4 text-center">
+        <h2 className="text-3xl font-bold text-white mb-8">$CLIFF Memes</h2>
+        <MemeTemplates />
       </section>
 
       {/* How to Buy */}
