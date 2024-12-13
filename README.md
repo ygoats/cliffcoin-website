@@ -57,20 +57,9 @@ The website combines professional crypto elements with meme culture, featuring:
 - Clear call-to-actions
 - Easy navigation
 
-## 🤝 Contributing
-
-This is a demonstration project, but feel free to fork and modify for your own use. If you make improvements, pull requests are welcome!
-
 ## 📝 License
 
 MIT License - feel free to use this code for your own projects.
-
-## 🙏 Acknowledgments
-
-- Created using Claude AI
-- Built through Mission Control Platform
-- Icons by Lucide
-- Styling with Tailwind CSS
 
 ## 🚨 Disclaimer
 
